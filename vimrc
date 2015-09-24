@@ -55,5 +55,11 @@ let g:SuperTabDefaultCompletionType = "context"
 " ultisnip
 let g:UltiSnipsExpandTrigger="<tab>"
 
+" ctrlp
+let g:ctrlp_custom_ignore = 'node_modules\|vendor'
+
+" fugitive
+set diffopt+=vertical
+
 
 cd ~\Projects\
